@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agenda de Atividades</string>
+    <string name="agendamento">Agendamento de Atividades</string>
+    <string name="textView_name">Nome: </string>
+    <string name="editText_name">Digite o nome: </string>
+    <string name="textView_description">Descrição: </string>
+    <string name="editText_description">Digite a descrição: </string>
+    <string name="button_save">Salvar</string>
+    <string name="button_delete">Deletar</string>
+    <string name="msg_text_empty">Você deixou de preencher</string>
+    <string name="msg_text_sucess">Atividade cadastrada com sucesso</string>
+</resources>
