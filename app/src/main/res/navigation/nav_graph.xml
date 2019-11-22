@@ -11,23 +11,23 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/toActivityFragment"
-            app:destination="@+id/activityFragment">
+            android:id="@+id/toTaskFragment"
+            app:destination="@+id/taskFragment">
         </action>
     </fragment>
     <fragment
-        android:id="@+id/activityFragment"
-        android:name="com.example.agendadeatividades.fragment.AcitivityFragment"
-        android:label="fragment_activity"
-        tools:layout="@layout/fragment_activity" >
+        android:id="@+id/taskFragment"
+        android:name="com.example.agendadeatividades.fragment.TaskFragment"
+        android:label="fragment_task"
+        tools:layout="@layout/fragment_task" >
         <action
             android:id="@+id/toMainFragment"
             app:destination="@id/mainFragment">
-     <!--   <argument
-            android:name="argBack"
-            app:argType="integer"
-            android:defaultValue="1" />
-            -->
+            <!--   <argument
+                   android:name="argBack"
+                   app:argType="integer"
+                   android:defaultValue="1" />
+                   -->
         </action>
     </fragment>
 </navigation>

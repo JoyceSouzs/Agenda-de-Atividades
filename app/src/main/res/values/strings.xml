@@ -7,6 +7,12 @@
     <string name="editText_description">Digite a descrição: </string>
     <string name="button_save">Salvar</string>
     <string name="button_delete">Deletar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_remove">Remover</string>
     <string name="msg_text_empty">Você deixou de preencher</string>
     <string name="msg_text_sucess">Atividade cadastrada com sucesso</string>
+    <string name="msg_text_ask_delete">Deseja remover?</string>
+    <string name="msg_text_delete_sucess">Atividade removida com sucesso</string>
+    <string name="title_text_delete">Remoção de Atividade</string>
+    <string name="msg_text_delete_error">Você não selecionou uma Atividade</string>
 </resources>

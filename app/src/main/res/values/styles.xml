@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light"/>
+    <style name="AlertDialogTheme"  parent="@style/Theme.MaterialComponents.Light.Dialog.Alert.Bridge"/>
     <style name="ThemeOverlayActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="TextAppearance.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">

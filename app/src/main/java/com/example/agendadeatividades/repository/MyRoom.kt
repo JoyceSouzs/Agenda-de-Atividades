@@ -4,13 +4,13 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.agendadeatividades.entity.Activity
-import com.example.agendadeatividades.repository.dao.ActivityDao
+import com.example.agendadeatividades.entity.Task
+import com.example.agendadeatividades.repository.dao.TaskDao
 
 // Classe com instância do banco de dados
-@Database(entities = [Activity::class], version = 1)
+@Database(entities = [Task::class], version = 1)
 abstract class MyRoom : RoomDatabase() {
-    abstract fun getActivityDao(): ActivityDao
+    abstract fun getActivityDao(): TaskDao
 
     companion object {
         var INSTANCE: MyRoom? = null

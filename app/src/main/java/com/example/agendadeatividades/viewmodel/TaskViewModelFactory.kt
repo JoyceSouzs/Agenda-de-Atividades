@@ -2,12 +2,12 @@ package com.example.agendadeatividades.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.agendadeatividades.repository.ActivityRepository
+import com.example.agendadeatividades.repository.TaskRepository
 
-class ActivityViewModelFactory(private val activityRepository: ActivityRepository) :
+class TaskViewModelFactory(private val taskRepository: TaskRepository) :
     ViewModelProvider.Factory {
 
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        return ActivityViewModel(activityRepository) as T
+        return TaskViewModel(taskRepository) as T
     }
 }
